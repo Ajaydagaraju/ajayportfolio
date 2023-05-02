@@ -59,6 +59,7 @@ const Container = styled.div`
 
     :hover > img{
         transform: scale(1.3);
+        filter:opacity(0.5);
     }
 
     :hover > .disc{

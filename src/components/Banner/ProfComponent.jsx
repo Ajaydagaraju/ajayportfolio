@@ -44,7 +44,7 @@ const ProfComponent = () => {
       <Slide direction="right">
         <Profile>
           <img
-            src="images/profile.png"
+            src="images/profile2.png"
             alt="profile"
           />
         </Profile>
@@ -147,6 +147,8 @@ const Social = styled.div`
 const Profile = styled.div`
   img {
     width: 25rem;
+    border-radius:100%;
+    border-bottom:10px solid #01be9570;
     filter: drop-shadow(0px 10px 10px #01be9570);
     transition: transform 400ms ease-in-out;
     @media (max-width: 790px) {

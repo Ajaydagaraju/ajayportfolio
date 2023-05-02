@@ -5,17 +5,18 @@ import styled from 'styled-components';
 let data = [
     {
         img : "images/memory_game.png",
-        disc : "Memory Game with a 60 mint Timer",
+        disc : "A Memory card game with a 60-minute timer is a game that challenges players to match pairs of cards that are laid out on a board. The Players racing to find all the matches before time runs out.",
         demo:"https://nehagupta7.github.io/card-game/"
     },
     {
-        img : "https://res.cloudinary.com/ghazni/image/upload/v1661324074/Yt-portfolio/ui4_jku3ol.png",
-        disc : "Lorem ipsum dolor sit amet consectetur adipisicing elit.Eveniet iure rerum obcaecati et laborum earum!"
-    },
+      img : "images/blog.png",
+      disc : "Imagery Mood Blog Page is a unique and creative way to express images view, share one's unique perspective on the world, and inspire others with the power of beautiful thought of random images",
+      demo:"https://ng-blogs.vercel.app/signin"
+        },
     {
-        img : "https://res.cloudinary.com/ghazni/image/upload/v1661323981/Yt-portfolio/ui2_wtollo.png",
-        disc : "Lorem ipsum dolor sit amet consectetur adipisicing elit.Eveniet iure rerum obcaecati et laborum earum!"
-    },
+      img : "images/skills.png",
+      disc : "My Portfolio showcases my skill and expertise in frontend Reactjs and my ability to create effective and visually appealing designs",
+      demo:"https://neha-gupta-portfolio.netlify.app/"   },
    
 ];
 
