@@ -15,9 +15,9 @@ let data = [
         },
     {
       img : "images/skills.png",
-      disc : "My Portfolio showcases my skill, expertise and my ability to create effective and visually appealing designs.",
+      disc : "My Portfolio showcases my skill, expertise and my ability to create effective and visually appealing designs.", 
       demo:"https://neha-gupta-portfolio.netlify.app/"   },
-   
+    
 ];
 
 

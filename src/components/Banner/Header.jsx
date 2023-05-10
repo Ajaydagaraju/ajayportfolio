@@ -4,18 +4,26 @@ import { GiButterfly } from "react-icons/gi";
 
 const Header = () => {
     const [bar, setBar] = useState(false);
+    const [isActive, setIsActive] = useState(false);
+
+  const handleClick = event => {
+    // 👇️ toggle isActive state on click
+    setBar(!bar);
+    console.log(bar,isActive)
+  };
+
   return (
     <Container bar={bar}>
         <Logo>
             <span className='green'><GiButterfly/></span>
             <h1>N G</h1>
         </Logo>
-        <Nav bar={bar}>
-            <span><a href="#home">Home</a></span>
-            <span><a href="#skills">Skills</a></span>
-            <span><a href="#project">Projects</a></span>
-            <span><a href="#work">Experience</a></span>
-            <span><a href="#footer">Contact</a></span>
+        <Nav bar={bar} >
+            <span><a href="#home"  onClick={() => setBar(!bar)}>Home</a></span>
+            <span><a href="#skills"  onClick={() => setBar(!bar)}>Skills</a></span>
+            <span><a href="#project"  onClick={() => setBar(!bar)}>Projects</a></span>
+            <span><a href="#work"  onClick={() => setBar(!bar)}>Experience</a></span>
+            <span><a href="#footer"  onClick={() => setBar(!bar)}>Contact</a></span>
         </Nav>
         <div
         onClick={() => setBar(!bar)}
@@ -67,12 +75,10 @@ const Container = styled.div`
                     background-color: #fff;
                     position: absolute;
                 }
-
                 :before{
                     transform: ${props => props.bar ? "rotate(45deg)" : "translateY(10px)"};
                     transition: all 400ms ease-in-out;
                 }
-
                 :after{
                     transform: ${props => props.bar ? "rotate(-45deg)" : "translateY(-10px)"};
                     transition: all 400ms ease-in-out;
@@ -88,7 +94,6 @@ const Logo = styled.div`
     span{
         font-size: 1.8rem;
     }
-
     h1{
         font-weight: 600;
         font-size: 1.2rem;
