@@ -76,7 +76,7 @@ const Footer = () => {
             </Zoom>
             {/* <Zoom>
               <span>
-                <a href="https://www.youtube.com/@nehaGupta-sg6xh">
+                <a href="">
                   <BsFacebook />
                 </a>
               </span>

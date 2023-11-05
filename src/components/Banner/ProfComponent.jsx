@@ -28,7 +28,7 @@ const ProfComponent = () => {
                 </a>
               </span>
               {/* <span>
-                <a href="https://github.com/Nehagupta7">
+                <a href="">
                   <AiFillGithub />
                 </a>
               </span> */}
