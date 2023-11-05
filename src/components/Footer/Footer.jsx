@@ -15,6 +15,8 @@ const Footer = () => {
       behavior: "smooth",
     });
   };
+  const date = new Date()
+  const year = date.getFullYear()
   return (
     <>
     <Container id="footer">
@@ -27,7 +29,7 @@ const Footer = () => {
             <h1>Location:</h1>
           </Slide>
           <Slide direction="left">
-            <p>Ludhiana, Punjab, India</p>
+            <p>MohinderGarh, Haryana, India</p>
           </Slide>
         </div>
         <div className="links">
@@ -39,7 +41,7 @@ const Footer = () => {
               <FiPhoneCall />
             </span>
             <Slide direction="left">
-              <a href="tel:+91 9646638043">9646638043</a>
+              <a href="tel:+91 8708591321">8708591321</a>
             </Slide>
           </div>
           <div>
@@ -49,45 +51,45 @@ const Footer = () => {
               </span>
             </Slide>
             <Slide>
-              <a href="mailto:guptaneha4578@gmail.com">guptaneha4578@gmail</a>
+              <a href="mailto:ajaydagar1434@gmail.com">ajaydagar1434@gmail</a>
             </Slide>
           </div>
         </div>
-        {/* <div className="profiles">
+        <div className="profiles">
           <Slide direction="left">
-            <h1>Check my profiles</h1>
+            <h1>Check my Profile</h1>
           </Slide>
           <div className="icons">
-            <Zoom>
+            {/* <Zoom>
               <span>
                 <a href="/">
                   <AiFillGithub />
                 </a>
               </span>
-            </Zoom>
+            </Zoom> */}
             <Zoom>
               <span>
-                <a href="/">
+                <a href="https://www.linkedin.com/in/ajay-kumar-6010871a7/">
                   <AiFillLinkedin />
                 </a>
               </span>
             </Zoom>
-            <Zoom>
+            {/* <Zoom>
               <span>
                 <a href="https://www.youtube.com/@nehaGupta-sg6xh">
                   <BsFacebook />
                 </a>
               </span>
-            </Zoom>
-            <Zoom>
+            </Zoom> */}
+            {/* <Zoom>
               <span>
                 <a href="/">
                   <BsSlack />
                 </a>
               </span>
-            </Zoom>
+            </Zoom> */}
           </div>
-        </div> */}
+        </div>
         <Fade>
           <ArrowUp onClick={scrollUp}>
             <AiOutlineArrowUp />
@@ -123,7 +125,10 @@ const Footer = () => {
     </Container>
     <Container>
     <footer className="footer_reserved">
-    All right reserved <span className="green"> © Neha Gupta</span>
+    Developed and designed with ❤️ <span className="green"> by Ajay Kumar</span>
+  </footer>
+    <footer className="footer_reserved">
+    All right reserved <span className="green"> © {year}</span>
   </footer>
   </Container>
   </>

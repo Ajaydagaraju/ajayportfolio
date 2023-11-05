@@ -5,12 +5,12 @@ import { CgWebsite } from "react-icons/cg";
 import { AiFillHtml5,AiFillGithub } from "react-icons/ai";
 import { IoLogoJavascript ,IoLogoNodejs} from "react-icons/io";
 import { SiTailwindcss,SiRedux ,SiRender,SiNetlify,SiVercel,SiMui,SiReactquery} from "react-icons/si";
-import { DiCss3,DiSass } from "react-icons/di";
+import { DiCss3,DiSass, DiMongodb } from "react-icons/di";
 import { CgBitbucket } from "react-icons/cg";
-import { SiVite,SiSocketdotio ,} from "react-icons/si";
+import { SiVite,SiSocketdotio , SiPostman} from "react-icons/si";
 import { TbBrandNextjs } from "react-icons/tb";
 import { BsCreditCard2FrontFill } from "react-icons/bs";
-import { FaReact } from "react-icons/fa";
+import { FaReact, FaNode } from "react-icons/fa";
 
 import styled from "styled-components";
 import Card from "./Card";
@@ -51,7 +51,12 @@ const Skills = () => {
             title={"Js Framework/Library"}
             disc={`Lorem ipsum dolor sit amet consectetur 
                 adipisicing elit. Commodi et asperiores cum exercitationem officia rem amet minus magnam? Cum, voluptatem?`}
-                techaArray={[{Icon:IoLogoJavascript,Name:"JS"},{Icon:FaReact,Name:"React"},{Icon:TbBrandNextjs,Name:"Nextjs"},{Icon:SiVite,Name:"Vite"}]}
+                techaArray={[
+                  {Icon:IoLogoJavascript,Name:"JS"},
+                  {Icon:FaReact,Name:"React"},
+                  {Icon:TbBrandNextjs,Name:"Nextjs"},
+                  // {Icon:SiVite,Name:"Vite"}
+                ]}
           
           />
         </Slide>
@@ -71,7 +76,7 @@ const Skills = () => {
             title={"Deployment"}
             disc={`Lorem ipsum dolor sit amet consectetur 
                 adipisicing elit. Commodi et asperiores cum exercitationem officia rem amet minus magnam? Cum, voluptatem?`}
-                techaArray={[{Icon:SiNetlify,Name:"Netlify"},{Icon:SiVercel,Name:"Vercel"},{Icon:SiRender,Name:"Render.io"}]}
+                techaArray={[{Icon:SiNetlify,Name:"Netlify"},{Icon:SiVercel,Name:"Vercel"}]}
           
           />
         </Slide>
@@ -82,6 +87,18 @@ const Skills = () => {
             disc={`Lorem ipsum dolor sit amet consectetur 
                 adipisicing elit. Commodi et asperiores cum exercitationem officia rem amet minus magnam? Cum, voluptatem?`}
                 techaArray={[{Icon:SiSocketdotio,Name:"Socket"},{Icon:SiMui,Name:"MUI"},{Icon:SiReactquery,Name:"React Query"}]}
+          
+          />
+        </Slide>
+      </Cards>
+      <Cards>
+      <Slide direction="down">
+          <Card
+            Icon={CgWebsite}
+            title={"New Learnings"}
+            disc={`Lorem ipsum dolor sit amet consectetur 
+                adipisicing elit. Commodi et asperiores cum exercitationem officia rem amet minus magnam? Cum, voluptatem?`}
+                techaArray={[{Icon:FaReact,Name:"React Native"},{Icon:SiPostman,Name:"PostMan"},{Icon:FaNode,Name:"Node Js"},{Icon:DiMongodb,Name:"Mongo DB"}]}
           
           />
         </Slide>

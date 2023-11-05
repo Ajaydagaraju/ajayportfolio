@@ -5,31 +5,24 @@ import { Slide } from 'react-awesome-reveal';
 
 let clients = [
     {
-        name : "Roaring Tiger",
-        technology : "Mern Stack",
+        name : "Zircog Technologies",
+        technology : "Front-end Developer",
         disc : [
-            "Build frontend in React js from scratch",
-            "Landing Pages and Admin Panel",
-            "All the content on landing pages manage by via Admin Panel"
+            "Build frontend in JavaScript",
+            "Manage UI and logic part of Crypot Currency Project.",
+            "Use Material Mui Frontend Framework ",
         ]
     },
     {
-        name :"Preference App",
-        technology : "Mern Stack",
+        name :"tecHindustan",
+        technology : "React Js Developer",
         disc : [
-            "Handle frontend React js Part",
-            "Admin Panel & Company Panel",
-            "Use Material Mui Frontend Framework ",
+            "Handle frontend React js & Next Js Part",
+            "Ecommerce Front-end & Admin Panel",
+            "All the content on landing pages manage by via Admin Panel"
             
         ]   },
-        {
-            name :"PVM",
-            technology : "Mern Stack",
-            disc : [
-                "Use NextJs Framework ",
-                "Build Admin Panel",
-                "Use Material Mui Frontend Framework and Tailwind Css ",
-                            ]   },
+        
     
     
 ]
@@ -43,7 +36,7 @@ const Clients = () => {
   return (
     <Container id='work'>
         <Slide direction="left">
-            <span className="green">Live Project </span>
+            {/* <span className="green">Live Project </span> */}
             <h1>Work Experience</h1>
         </Slide>
         <Card>

@@ -3,13 +3,17 @@ import styled from 'styled-components';
 
 const Project = (props) => {
     const { img, disc ,demo} = props.item;
+    console.log("demo", demo)
   return (
     <Container className='project'>
         <img src={img} alt="project" />
         <div className="disc">
             <h1>Description</h1>
             <p>{disc}
+            {
+                demo === "#" ? "" :
             <a href={`${demo}`} target='_blank'>Demo</a>
+            }
             </p>
         </div>
     </Container>

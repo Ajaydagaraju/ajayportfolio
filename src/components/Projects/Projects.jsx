@@ -4,19 +4,46 @@ import styled from 'styled-components';
 
 let data = [
     {
-        img : "images/memory_game.png",
-        disc : "A Memory card game with a 60-minute timer is a game that challenges players to match pairs of cards that are laid out on a board. The Players racing to find all the matches before time runs out.",
-        demo:"https://nehagupta7.github.io/card-game/"
+        img : "images/Greenstone.png",
+        disc : "It is a E-commerce project where we can buy cannabe projects by can appply coupons on base of cart, product and days.",
+        demo:"https://greenstoneretail.com/"
     },
     {
-      img : "images/blog.png",
-      disc : "Imagery Mood Blog Page is a unique and creative way to express images view, share one's unique perspective on the world, and inspire others with the power of beautiful thought of random images",
-      demo:"https://ng-blogs.vercel.app/signin"
+      img : "images/canna_mobile.png",
+      disc : "It si a E-commerece project on base of multiple shop loaction.",
+      demo:"https://demo.cannabee.io/calgary/"
         },
     {
-      img : "images/skills.png",
-      disc : "My Portfolio showcases my skill, expertise and my ability to create effective and visually appealing designs.", 
-      demo:"https://neha-gupta-portfolio.netlify.app/"   },
+      img : "images/royalapothecary.png",
+      disc : "Our cutting-edge e-commerce project offers a seamless online shopping experience, featuring a vast range of products, user-friendly navigation, and secure payment gateways.", 
+      demo:"https://royalapothecary.life/"   
+    },
+      {
+        img : "images/enciser_admin.png",
+        disc : "This admin panel is a based on electricity management system.",
+        demo:"#"
+          },
+      {
+        img : "images/canna_admin.png",
+        disc : "It is super admin and manage multiple admin as per requiremnt of each Admin.",
+        demo:"#"
+          },
+          
+              {
+                img : "images/greenstoneadmin.png",
+                disc : "This admin track all data and details to track business",
+                demo:"#"
+                  },
+                  {
+                    img : "images/hyperworlf_admin.png",
+                    disc : "Here we can manage whole web Dynamically by using HyperWolf Amdin.",
+                    demo:"#"
+                      },
+                  {
+                    img : "images/portfolio.png",
+                    disc : "My Portfolio showcases my skill, expertise and my ability to create effective and visually appealing designs.", 
+                    demo:"https://ng-blogs.vercel.app/signin"
+                      },
     
 ];
 

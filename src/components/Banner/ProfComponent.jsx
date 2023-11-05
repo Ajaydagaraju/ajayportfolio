@@ -13,27 +13,27 @@ const ProfComponent = () => {
           <h4>
             Hello <span className="green">I'am</span>
           </h4>
-          <h1 className="green">Neha Gupta</h1>
+          <h1 className="green">Ajay Kumar</h1>
           <h3>Frontend ReactJs Developer</h3>
           <p>
           I love building state-of-the-art, easy-to-use and user-friendly websites and applications. In addition to my knowledge base, I stay up-to-date with new technology advancements and trends in the industry.
           </p>
-          <a href="images/neha_gupta_cv.pdf"> <button >View Resume</button></a>
+          <a href="images/ajay_kuamr_cv.pdf"> <button >View Resume</button></a>
           <Social>
             <p>Check out my</p>
             <div className="social-icons">
               <span>
-                <a href="https://mailto:guptaneha4578@gmail.com">
+                <a href="https://mailto:ajaydagar1434@gmail.com">
                   <SiGmail />
                 </a>
               </span>
-              <span>
+              {/* <span>
                 <a href="https://github.com/Nehagupta7">
                   <AiFillGithub />
                 </a>
-              </span>
+              </span> */}
               <span>
-                <a href="https://www.linkedin.com/in/neha-gupta-480a88204/">
+                <a href="https://www.linkedin.com/in/ajay-kumar-6010871a7/">
                   <FaLinkedinIn />
                 </a>
               </span>
@@ -44,7 +44,7 @@ const ProfComponent = () => {
       <Slide direction="right">
         <Profile>
           <img
-            src="images/profile2.png"
+            src="images/Ajayimage.JPEG"
             alt="profile"
           />
         </Profile>

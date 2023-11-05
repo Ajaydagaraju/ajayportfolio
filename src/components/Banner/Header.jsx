@@ -1,6 +1,6 @@
 import React, { useState } from 'react'
 import styled from 'styled-components';
-import { GiButterfly } from "react-icons/gi";
+import { FaCode } from "react-icons/fa";
 
 const Header = () => {
     const [bar, setBar] = useState(false);
@@ -13,10 +13,10 @@ const Header = () => {
   };
 
   return (
-    <Container bar={bar}>
+    <Container bar={bar} style={{ position:'sticky', top:'0px', zIndex:1, }}>
         <Logo>
-            <span className='green'><GiButterfly/></span>
-            <h1>N G</h1>
+            <span className='green'><FaCode/></span>
+            <div style={{fontSize:'32px', fontWeight:"bold"}} >A K</div>
         </Logo>
         <Nav bar={bar} >
             <span><a href="#home"  onClick={() => setBar(!bar)}>Home</a></span>
