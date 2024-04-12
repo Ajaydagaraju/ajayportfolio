@@ -69,7 +69,7 @@ const Footer = () => {
             </Zoom> */}
             <Zoom>
               <span>
-                <a href="https://www.linkedin.com/in/ajay-kumar-6010871a7/">
+                <a href="https://www.linkedin.com/in/ajay-kumar-6010871a7/" target="blank">
                   <AiFillLinkedin />
                 </a>
               </span>

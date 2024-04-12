@@ -18,22 +18,22 @@ const ProfComponent = () => {
           <p>
           I love building state-of-the-art, easy-to-use and user-friendly websites and applications. In addition to my knowledge base, I stay up-to-date with new technology advancements and trends in the industry.
           </p>
-          <a href="images/ajay_kuamr_cv.pdf"> <button >View Resume</button></a>
+          <a href="images/ajay_kuamr_cv.pdf" target="blank" > <button >View Resume</button></a>
           <Social>
             <p>Check out my</p>
             <div className="social-icons">
               <span>
-                <a href="https://mailto:ajaydagar1434@gmail.com">
+                <a href="https://mailto:ajaydagar1434@gmail.com" target="blank">
                   <SiGmail />
                 </a>
               </span>
-              {/* <span>
-                <a href="">
+              <span>
+                <a href="https://github.com/Ajaydagaraju" target="blank">
                   <AiFillGithub />
                 </a>
-              </span> */}
+              </span>
               <span>
-                <a href="https://www.linkedin.com/in/ajay-kumar-6010871a7/">
+                <a href="https://www.linkedin.com/in/ajay-kumar-6010871a7/" target="blank">
                   <FaLinkedinIn />
                 </a>
               </span>

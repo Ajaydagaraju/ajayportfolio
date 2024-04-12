@@ -7,10 +7,10 @@ import { IoLogoJavascript ,IoLogoNodejs} from "react-icons/io";
 import { SiTailwindcss,SiRedux ,SiRender,SiNetlify,SiVercel,SiMui,SiReactquery} from "react-icons/si";
 import { DiCss3,DiSass, DiMongodb } from "react-icons/di";
 import { CgBitbucket } from "react-icons/cg";
-import { SiVite,SiSocketdotio , SiPostman} from "react-icons/si";
+import { SiVite,SiSocketdotio , SiPostman, SiTypescript, SiJest} from "react-icons/si";
 import { TbBrandNextjs } from "react-icons/tb";
 import { BsCreditCard2FrontFill } from "react-icons/bs";
-import { FaReact, FaNode } from "react-icons/fa";
+import { FaReact, FaNode, FaGit } from "react-icons/fa";
 
 import styled from "styled-components";
 import Card from "./Card";
@@ -32,7 +32,7 @@ const Skills = () => {
             title={"Frontend Styling"}
             disc={`Lorem ipsum dolor sit amet consectetur 
                 adipisicing elit. Commodi et asperiores cum exercitationem officia rem amet minus magnam? Cum, voluptatem?`}
-                techaArray={[{Icon:AiFillHtml5,Name:"HTML5"},{Icon:DiCss3,Name:"CSS3"},{Icon:SiTailwindcss,Name:"Tailwind"},{Icon:DiSass,Name:"SASS"}]}
+                techaArray={[{Icon:DiSass,Name:"SASS"},{Icon:AiFillHtml5,Name:"HTML5"},{Icon:DiCss3,Name:"CSS3"},{Icon:SiTailwindcss,Name:"Tailwind"}]}
           />
         </Slide>
         <Slide direction="up">
@@ -41,7 +41,7 @@ const Skills = () => {
             title={"Version Control"}
             disc={`Lorem ipsum dolor sit amet consectetur 
                 adipisicing elit. Commodi et asperiores cum exercitationem officia rem amet minus magnam? Cum, voluptatem?`}
-                techaArray={[{Icon:AiFillGithub,Name:"GitHub"},{Icon:CgBitbucket,Name:"Bitbucket"}]}
+                techaArray={[{Icon:FaGit,Name:"Git"},{Icon:AiFillGithub,Name:"GitHub"},{Icon:CgBitbucket,Name:"Bitbucket"}]}
           
           />
         </Slide>
@@ -53,6 +53,7 @@ const Skills = () => {
                 adipisicing elit. Commodi et asperiores cum exercitationem officia rem amet minus magnam? Cum, voluptatem?`}
                 techaArray={[
                   {Icon:IoLogoJavascript,Name:"JS"},
+                  {Icon:SiTypescript,Name:"TS"},
                   {Icon:FaReact,Name:"React"},
                   {Icon:TbBrandNextjs,Name:"Nextjs"},
                   // {Icon:SiVite,Name:"Vite"}
@@ -92,13 +93,14 @@ const Skills = () => {
         </Slide>
       </Cards>
       <Cards>
+
       <Slide direction="down">
           <Card
             Icon={CgWebsite}
             title={"New Learnings"}
             disc={`Lorem ipsum dolor sit amet consectetur 
                 adipisicing elit. Commodi et asperiores cum exercitationem officia rem amet minus magnam? Cum, voluptatem?`}
-                techaArray={[{Icon:FaReact,Name:"React Native"},{Icon:SiPostman,Name:"PostMan"},{Icon:FaNode,Name:"Node Js"},{Icon:DiMongodb,Name:"Mongo DB"}]}
+                techaArray={[{Icon:FaReact,Name:"React Native"},{Icon:SiPostman,Name:"PostMan"},{Icon:FaNode,Name:"Node Js"},{Icon:DiMongodb,Name:"Mongo DB"}, {Icon:SiJest,Name:"Jest"}]}
           
           />
         </Slide>
