@@ -5,6 +5,13 @@ import { Slide } from 'react-awesome-reveal';
 
 let clients = [
     {
+        name : "Ducat India",
+        technology : "MERN Stack Developer",
+        disc: [
+            "Complete 6 Month Internship in JS technologies as MERN stack Developer."
+        ]
+    },
+    {
         name : "Zircog Technologies",
         technology : "Front-end Developer",
         disc : [
@@ -22,7 +29,15 @@ let clients = [
             "All the content on landing pages manage by via Admin Panel"
             
         ]   },
-        
+    {
+        name : "CrissCross Lab",
+        technology : "Web Developer",
+        disc : [
+            "Worked on Hotel management application.",
+            "Work on Manage business application like (KhataBook)",
+            "Wokr on Backend part Node js and PostgreSQL Data Base"
+        ]
+    }    
     
     
 ]

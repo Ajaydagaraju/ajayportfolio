@@ -4,14 +4,14 @@ import { FiCodesandbox } from "react-icons/fi";
 import { CgWebsite } from "react-icons/cg";
 import { AiFillHtml5,AiFillGithub } from "react-icons/ai";
 import { IoLogoJavascript ,IoLogoNodejs} from "react-icons/io";
-import { SiTailwindcss,SiRedux ,SiRender,SiNetlify,SiVercel,SiMui,SiReactquery} from "react-icons/si";
+import { SiTailwindcss,SiRedux ,SiRender,SiNetlify,SiVercel,SiMui,SiReactquery, SiPostgresql} from "react-icons/si";
 import { DiCss3,DiSass, DiMongodb } from "react-icons/di";
 import { CgBitbucket } from "react-icons/cg";
 import { SiVite,SiSocketdotio , SiPostman, SiTypescript, SiJest} from "react-icons/si";
 import { TbBrandNextjs } from "react-icons/tb";
 import { BsCreditCard2FrontFill } from "react-icons/bs";
 import { FaReact, FaNode, FaGit } from "react-icons/fa";
-
+import { GrMysql } from "react-icons/gr";
 import styled from "styled-components";
 import Card from "./Card";
 import { Slide } from "react-awesome-reveal";
@@ -23,7 +23,7 @@ const Skills = () => {
         <h4>
           My <span className="green">Skills</span>
         </h4>
-        <h1>What I Do</h1>
+        <h1>What I Know</h1>
       </Slide>
       <Cards>
         <Slide direction="left">
@@ -61,7 +61,7 @@ const Skills = () => {
           
           />
         </Slide>
-        <Slide direction="left">
+        <Slide direction="down">
           <Card
             Icon={MdDesignServices}
             title={"State Management"}
@@ -71,7 +71,7 @@ const Skills = () => {
           
           />
         </Slide>
-        <Slide direction="up">
+        <Slide direction="right">
           <Card
             Icon={FiCodesandbox}
             title={"Deployment"}
@@ -81,7 +81,27 @@ const Skills = () => {
           
           />
         </Slide>
-        <Slide direction="right">
+        <Slide direction="down">
+          <Card
+            Icon={FiCodesandbox}
+            title={"DataBase"}
+            disc={`Lorem ipsum dolor sit amet consectetur 
+                adipisicing elit. Commodi et asperiores cum exercitationem officia rem amet minus magnam? Cum, voluptatem?`}
+                techaArray={[{Icon:SiPostgresql ,Name:"PostgreSQL"},{Icon:DiMongodb,Name:"Mongo DB"},{Icon : GrMysql, Name:"MySQL"}]}
+          
+          />
+        </Slide>
+        <Slide direction="left">
+          <Card
+            Icon={FiCodesandbox}
+            title={"BackEnd"}
+            disc={`Lorem ipsum dolor sit amet consectetur 
+                adipisicing elit. Commodi et asperiores cum exercitationem officia rem amet minus magnam? Cum, voluptatem?`}
+                techaArray={[{Icon:FaNode,Name:"Node Js"}]}
+          
+          />
+        </Slide>
+        <Slide direction="up">
           <Card
             Icon={CgWebsite}
             title={"Other Basic"}
@@ -94,13 +114,13 @@ const Skills = () => {
       </Cards>
       <Cards>
 
-      <Slide direction="down">
+      <Slide direction="up">
           <Card
             Icon={CgWebsite}
             title={"New Learnings"}
             disc={`Lorem ipsum dolor sit amet consectetur 
                 adipisicing elit. Commodi et asperiores cum exercitationem officia rem amet minus magnam? Cum, voluptatem?`}
-                techaArray={[{Icon:FaReact,Name:"React Native"},{Icon:SiPostman,Name:"PostMan"},{Icon:FaNode,Name:"Node Js"},{Icon:DiMongodb,Name:"Mongo DB"}, {Icon:SiJest,Name:"Jest"}]}
+                techaArray={[{Icon:FaReact,Name:"React Native"},{Icon:SiPostman,Name:"PostMan"}, {Icon:SiJest,Name:"Jest"}]}
           
           />
         </Slide>

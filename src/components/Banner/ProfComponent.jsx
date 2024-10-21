@@ -18,7 +18,7 @@ const ProfComponent = () => {
           <p>
           I love building state-of-the-art, easy-to-use and user-friendly websites and applications. In addition to my knowledge base, I stay up-to-date with new technology advancements and trends in the industry.
           </p>
-          <a href="images/ajay_kuamr_cv.pdf" target="blank" > <button >View Resume</button></a>
+          <a href="images/AjayResume.pdf" target="blank" > <button >View Resume</button></a>
           <Social>
             <p>Check out my</p>
             <div className="social-icons">

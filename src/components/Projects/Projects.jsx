@@ -18,6 +18,16 @@ let data = [
       disc : "Our cutting-edge e-commerce project offers a seamless online shopping experience, featuring a vast range of products, user-friendly navigation, and secure payment gateways.", 
       demo:"https://royalapothecary.life/"   
     },
+    {
+      img: "images/Justhomestay.png",
+      disc : "It is a easy hotel booking application. & Here Owner can add multiple hotel detials and can manage dyanamic booking process.",
+      demo : "https://justhomestay.in/"
+    },
+    {
+      img: "/images/resizerpro.png",
+      disc : "This application build for convert image to diffrent sizes and webP. It is free resource.",
+      demo : "https://resizer.pro/"
+    },
       {
         img : "images/enciser_admin.png",
         disc : "This admin panel is a based on electricity management system.",
